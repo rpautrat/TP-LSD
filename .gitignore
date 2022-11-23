@@ -7,3 +7,5 @@ data/
 .idea/
 modeling/DCNv2/build/
 modeling/DCNv2/_ext.cpython-35m-x86_64-linux-gnu.so
+*.egg-info
+__pycache__/
