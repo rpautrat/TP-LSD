@@ -50,9 +50,9 @@ import numpy as np
 import os
 import time
 import cv2 as cv
-from lbdmod.build import pylbd
+from tp_lsd.lbdmod.build import pylbd
 import torch
-from utils.reconstruct import TPS_line
+from tp_lsd.utils.reconstruct import TPS_line
 
 myjet = np.array([[0.        , 0.        , 0.5       ],
                   [0.        , 0.        , 0.99910873],

@@ -1,15 +1,14 @@
 from progress.bar import Bar
-from config.test_config import BasicParam
+from tp_lsd.config.test_config import BasicParam
 import os
 import cv2 as cv
 import time
 import torch
 import numpy as np
 
-from dataset.dataset import YorkDataset
-from progress.bar import Bar
-from utils.utils import load_model
-from utils.reconstruct import save_pic_mat, save_image
+from tp_lsd.dataset.dataset import YorkDataset
+from tp_lsd.utils.utils import load_model
+from tp_lsd.utils.reconstruct import save_pic_mat, save_image
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 if device == 'cpu':

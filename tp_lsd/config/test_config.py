@@ -2,8 +2,8 @@ import os
 import argparse
 import numpy as np
 import sys
-from modeling.Hourglass import HourglassNet
-from modeling.TP_Net import Res160, Res320
+from tp_lsd.modeling.Hourglass import HourglassNet
+from tp_lsd.modeling.TP_Net import Res160, Res320
 
 class BasicParam(object):
     def __init__(self):
